@@ -6,7 +6,7 @@
 
 ## Nombre del repositorio
 
-`agent-trajectory-evaluation-framework`
+`agent_trajectory_evaluation_framework`
 
 ## Resumen del proyecto
 
