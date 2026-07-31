@@ -1,0 +1,46 @@
+# Marco de Evaluación de Trayectorias de Agentes
+
+Un marco ligero para evaluar agentes de IA más allá de la corrección de la respuesta final.
+
+Este proyecto se centra en la trayectoria completa de un agente de IA: cómo entiende una tarea, planifica sus acciones, selecciona y usa herramientas, recupera información, se mantiene fiel a las fuentes, respeta límites de seguridad, se comunica con el usuario y produce una respuesta final útil.
+
+## Caso de uso inicial
+
+El primer caso de uso es un agente de apoyo administrativo en salud en español.
+
+El agente maneja tareas no clínicas, como reagendamiento de horas, políticas de cancelación, requisitos de documentación y derivación a soporte humano cuando corresponde.
+
+Este dominio fue seleccionado porque combina ambigüedad real, ansiedad del usuario, información procedimental, privacidad y la necesidad de una comunicación clara, segura y sensible al contexto.
+
+## Idea central
+
+Evaluar solo la respuesta final no es suficiente para los agentes de IA.
+
+Una respuesta final puede parecer correcta aunque el agente haya elegido mal una herramienta, recuperado evidencia débil, ignorado una ambigüedad, vulnerado un límite de seguridad o seguido una trayectoria ineficiente.
+
+Este proyecto propone evaluar la trayectoria completa del agente, no solo su respuesta final.
+
+## Dimensiones de evaluación
+
+1. Comprensión de la tarea
+2. Calidad de la planificación
+3. Selección de herramientas
+4. Ejecución de herramientas
+5. Calidad de la recuperación de información
+6. Fidelidad a las fuentes
+7. Seguridad y límites
+8. Adecuación comunicativa
+9. Eficiencia
+10. Utilidad para el usuario
+
+## Idioma
+
+Este repositorio está documentado en inglés y español.
+
+- [English README](README.md)
+- [Project Scope](docs/project_scope.md)
+- [Alcance del proyecto](docs/project_scope.es.md)
+
+## Estado
+
+Proyecto en desarrollo.
