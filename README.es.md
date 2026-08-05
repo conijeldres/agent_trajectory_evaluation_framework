@@ -4,6 +4,12 @@ Un marco ligero para evaluar agentes de IA más allá de la corrección de la re
 
 Este proyecto se centra en la trayectoria completa de un agente de IA: cómo entiende una tarea, planifica sus acciones, selecciona y usa herramientas, recupera información, se mantiene fiel a las fuentes, respeta límites de seguridad, se comunica con el usuario y produce una respuesta final útil.
 
+## Implementación actual
+
+La versión actual implementa un agente base simple en Python.
+
+No utiliza LangChain, LlamaIndex, APIs externas de LLMs, embeddings ni sistemas reales de salud. Esto es intencional: el primer objetivo es crear trayectorias transparentes y auditables que puedan evaluarse antes de incorporar arquitecturas de agentes más complejas.
+
 ## Caso de uso inicial
 
 El primer caso de uso es un agente de apoyo administrativo en salud en español.
