@@ -4,6 +4,14 @@ A lightweight framework to evaluate AI agents beyond final-answer correctness.
 
 This project focuses on the full trajectory of an AI agent: how it understands a task, plans its actions, selects and uses tools, retrieves information, remains faithful to sources, respects safety boundaries, communicates with the user, and produces a useful final response.
 
+## Current Implementation
+
+The current version implements a simple rule-based baseline agent in Python.
+
+It does not use LangChain, LlamaIndex, external LLM APIs, embeddings, or live healthcare systems. This is intentional: the first goal is to create transparent and auditable trajectories that can be evaluated before introducing more complex agent architectures.
+
+Future versions may include a LlamaIndex-based retrieval layer or a LangChain tool-using agent for comparison.
+
 ## Initial Use Case
 
 The first use case is a Spanish-language healthcare administrative support agent.
