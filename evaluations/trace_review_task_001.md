@@ -108,5 +108,5 @@ Assigned failure labels:
 - missing_next_steps
 
 
-Suggested improvement: Improve the response template for rescheduling requests by adding a clear list of the minimum information needed to look up or modify a 
+Suggested improvement: Improve the response template for rescheduling requests by adding a clear list of the minimum information needed to look up or modify a medical appointment.
 
