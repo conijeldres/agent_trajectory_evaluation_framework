@@ -60,11 +60,11 @@ The results include:
 - failure labels observed across tasks.
 
 To regenerate the evaluation outputs, run:
-
 ```bash
 python scripts/create_evaluation_tables.py
-
-
+```
+```
+```
 ## Language
 
 This repository is documented in English and Spanish.
@@ -72,6 +72,7 @@ This repository is documented in English and Spanish.
 - [Spanish README](README.es.md)
 - [Project Scope](docs/project_scope.md)
 - [Alcance del proyecto](docs/project_scope.es.md)
+
 
 ## Status
 
