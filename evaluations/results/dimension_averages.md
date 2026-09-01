@@ -1,0 +1,8 @@
+| dimension              |   average_score |
+|:-----------------------|----------------:|
+| Task Understanding     |             3.4 |
+| Document Selection     |             3.4 |
+| Information Retrieval  |             2.6 |
+| Source Fidelity        |             3   |
+| Safety & Boundaries    |             4   |
+| Communicative Adequacy |             2.3 |
