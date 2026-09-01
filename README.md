@@ -41,6 +41,29 @@ This project proposes evaluating the full agent trajectory, not just the final a
 9. Efficiency
 10. User Usefulness
 
+## Evaluation Outputs
+
+This repository includes trace-level qualitative reviews and rubric-based quantitative results.
+
+The evaluation results are stored in:
+
+- `evaluations/trace_review_task_*.md`: individual trace reviews.
+- `evaluations/results/`: generated result tables, summaries, and charts.
+- `scripts/create_evaluation_tables.py`: Python script used to generate the evaluation tables and charts.
+
+The results include:
+
+- task-level rubric scores;
+- average score per task;
+- average score by evaluation dimension;
+- overall trajectory outcome distribution;
+- failure labels observed across tasks.
+
+To regenerate the evaluation outputs, run:
+
+```bash
+python scripts/create_evaluation_tables.py
+
 ## Language
 
 This repository is documented in English and Spanish.
@@ -52,3 +75,13 @@ This repository is documented in English and Spanish.
 ## Status
 
 Work in progress.
+
+Current version includes:
+
+- a synthetic Spanish healthcare-administrative task dataset;
+- a synthetic knowledge base;
+- a rule-based baseline agent;
+- generated agent traces;
+- qualitative trace reviews;
+- rubric-based evaluation results;
+- Python-generated tables and charts in English and Spanish.
