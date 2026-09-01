@@ -74,3 +74,13 @@ Este repositorio está documentado en inglés y español.
 ## Estado
 
 Proyecto en desarrollo.
+
+La versión actual incluye:
+
+- un dataset sintético de tareas administrativas de salud en español;
+- una base de conocimiento sintética;
+- un agente base basado en reglas;
+- trazas generadas del agente;
+- revisiones cualitativas de trazas;
+- resultados de evaluación basados en rúbrica;
+- tablas y gráficos generados con Python en inglés y español.
