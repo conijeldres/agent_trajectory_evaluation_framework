@@ -63,8 +63,6 @@ To regenerate the evaluation outputs, run:
 ```bash
 python scripts/create_evaluation_tables.py
 ```
-```
-```
 ## Language
 
 This repository is documented in English and Spanish.
