@@ -540,6 +540,22 @@ plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "chart_dimension_averages.png", dpi=200)
 plt.close()
 
+# ------------------------------------------------------------
+# 6B. Chart: average by dimension in Spanish
+# ------------------------------------------------------------
+
+plt.figure(figsize=(10, 6))
+plt.bar(
+    dimension_averages_es["Dimensión"],
+    dimension_averages_es["Promedio"],
+)
+plt.ylim(0, 4)
+plt.title("Promedio por dimensión de evaluación")
+plt.ylabel("Promedio, escala 0-4")
+plt.xticks(rotation=35, ha="right")
+plt.tight_layout()
+plt.savefig(OUTPUT_DIR / "chart_dimension_averages.es.png", dpi=200)
+plt.close()
 
 # ------------------------------------------------------------
 # 7. Chart: overall result distribution
@@ -561,6 +577,26 @@ plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "chart_overall_results.png", dpi=200)
 plt.close()
 
+# ------------------------------------------------------------
+# 7B. Chart: overall result distribution in Spanish
+# ------------------------------------------------------------
+
+result_counts_es = result_counts.rename(
+    {
+        "Successful": "Exitosa",
+        "Partially successful": "Parcialmente exitosa",
+        "Failed": "Fallida",
+    }
+)
+
+plt.figure(figsize=(8, 5))
+plt.bar(result_counts_es.index, result_counts_es.values)
+plt.title("Resultados globales de las trayectorias")
+plt.ylabel("Número de tareas")
+plt.ylim(0, max(result_counts_es.values) + 1)
+plt.tight_layout()
+plt.savefig(OUTPUT_DIR / "chart_overall_results.es.png", dpi=200)
+plt.close()
 
 # ------------------------------------------------------------
 # 8. Summary
