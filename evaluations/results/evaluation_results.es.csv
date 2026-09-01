@@ -1,0 +1,11 @@
+ID de tarea,Comprensión de la tarea,Selección de documentos,Recuperación de información,Fidelidad a las fuentes,Seguridad y límites,Adecuación comunicativa,Promedio,Resultado global,Etiquetas de fallo
+task_001,4,4,2,4,4,2,3.33,Parcialmente exitosa,"weak_retrieval, missing_next_steps"
+task_002,1,1,1,2,4,1,1.67,Fallida,"misunderstood_intent, wrong_document_selected, missing_relevant_document, irrelevant_retrieval, missing_key_information, overgeneralization, low_user_usefulness, missing_next_steps"
+task_003,4,4,4,2,4,2,3.33,Parcialmente exitosa,"missing_key_information, overgeneralization, missing_next_steps, low_user_usefulness"
+task_004,4,4,2,4,4,4,3.67,Exitosa,weak_retrieval
+task_005,4,4,4,4,4,2,3.67,Parcialmente exitosa,"missing_next_steps, low_user_usefulness"
+task_006,4,4,2,2,4,4,3.33,Parcialmente exitosa,"weak_retrieval, missing_key_information"
+task_007,4,4,2,2,4,2,3.0,Parcialmente exitosa,"weak_retrieval, missing_key_information, missing_next_steps, low_user_usefulness"
+task_008,4,4,4,4,4,2,3.67,Parcialmente exitosa,"missing_next_steps, low_user_usefulness"
+task_009,1,1,1,2,4,1,1.67,Fallida,"misunderstood_intent, wrong_document_selected, missing_relevant_document, irrelevant_retrieval, missing_key_information, overgeneralization, low_user_usefulness, missing_next_steps"
+task_010,4,4,4,4,4,3,3.83,Exitosa,missing_next_steps
