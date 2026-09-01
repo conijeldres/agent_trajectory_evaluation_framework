@@ -556,7 +556,6 @@ plt.xticks(rotation=35, ha="right")
 plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "chart_dimension_averages.es.png", dpi=200)
 plt.close()
-
 # ------------------------------------------------------------
 # 7. Chart: overall result distribution
 # ------------------------------------------------------------
