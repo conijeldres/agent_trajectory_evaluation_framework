@@ -39,6 +39,30 @@ Este proyecto propone evaluar la trayectoria completa del agente, no solo su res
 9. Eficiencia
 10. Utilidad para el usuario
 
+# Resultados de evaluación
+
+Esta carpeta contiene los resultados generados a partir de la evaluación por rúbrica de las trayectorias del agente.
+
+Los archivos incluyen:
+
+- `evaluation_results.md`: tabla de evaluación por tarea en inglés.
+- `evaluation_results.es.md`: tabla de evaluación por tarea en español.
+- `dimension_averages.md`: promedio por dimensión en inglés.
+- `dimension_averages.es.md`: promedio por dimensión en español.
+- `summary.md`: resumen general en inglés.
+- `summary.es.md`: resumen general en español.
+- `chart_dimension_averages.png`: gráfico de promedios por dimensión en inglés.
+- `chart_dimension_averages.es.png`: gráfico de promedios por dimensión en español.
+- `chart_overall_results.png`: gráfico de resultados globales en inglés.
+- `chart_overall_results.es.png`: gráfico de resultados globales en español.
+
+Estos archivos se generan con:
+
+```bash
+python scripts/create_evaluation_tables.py
+```
+
+
 ## Idioma
 
 Este repositorio está documentado en inglés y español.
