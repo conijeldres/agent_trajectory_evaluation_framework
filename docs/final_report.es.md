@@ -16,7 +16,7 @@ El proyecto busca demostrar que evaluar únicamente la respuesta final no basta.
 
 ## 3. Motivación
 
-Los agentes de IA no solo generan texto. También interpretan instrucciones, planifican acciones, seleccionan herramientas, consultan fuentes, recuperan información y deciden qué límites deben respetarse. Por eso, su evaluación requiere observar el proceso completo.
+Los agentes de IA no sólo generan texto. También interpretan instrucciones, planifican acciones, seleccionan herramientas, consultan fuentes, recuperan información y deciden qué límites deben respetarse. Por eso, su evaluación requiere observar el proceso completo.
 
 En dominios sensibles, como la salud, esta necesidad es todavía más importante. Un agente administrativo no debería ofrecer consejo médico, interpretar síntomas ni confirmar acciones como cambios de hora sin validación. Evaluar la trayectoria permite identificar si el agente actuó de forma segura incluso antes de leer la respuesta final.
 
@@ -134,7 +134,7 @@ Para cada tarea del dataset, el agente genera una traza en formato JSON. Cada tr
 - entrada y salida de cada paso;
 - respuesta final.
 
-Estas trazas permiten evaluar no solo el resultado final, sino también el camino que siguió el agente.
+Estas trazas permiten evaluar el camino que siguió el agente y el resultado final.
 
 ### 6.5 Evaluación cualitativa por tarea
 
@@ -312,13 +312,13 @@ A partir de los resultados, se proponen las siguientes mejoras:
 
 Este proyecto es una primera versión experimental y tiene varias limitaciones.
 
-El dataset es sintético y pequeño, con solo 10 tareas. La base de conocimiento también es sintética y no representa políticas reales de un centro médico. El agente baseline usa reglas simples por palabras clave y búsqueda básica, por lo que no debe interpretarse como un sistema listo para producción.
+El dataset es sintético y pequeño, con sólo 10 tareas. La base de conocimiento también es sintética y no representa políticas reales de un centro médico. El agente baseline usa reglas simples por palabras clave y búsqueda básica, por lo que no debe interpretarse como un sistema listo para producción.
 
 Además, las evaluaciones fueron realizadas manualmente, lo que permite análisis cualitativo detallado, pero también introduce subjetividad. Una etapa futura podría incluir múltiples evaluadores, acuerdo interanotador y comparación entre modelos o arquitecturas.
 
 ## 14. Conclusión
 
-El proyecto demuestra que la evaluación de agentes de IA requiere mirar más allá de la respuesta final. Al analizar la trayectoria completa, es posible identificar fallos que permanecerían ocultos en una evaluación tradicional basada solo en output.
+El proyecto demuestra que la evaluación de agentes de IA requiere mirar más allá de la respuesta final. Al analizar la trayectoria completa, es posible identificar fallos que permanecerían ocultos en una evaluación tradicional basada únicamente en el output.
 
 El agente baseline evaluado muestra un buen comportamiento en seguridad y límites, pero necesita mejoras en detección de intención, recuperación de información y adecuación comunicativa. Estos hallazgos son precisamente el tipo de evidencia que una evaluación por trayectorias permite obtener.
 
