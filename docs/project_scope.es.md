@@ -168,8 +168,38 @@ El proyecto producirá inicialmente:
 - un informe cualitativo de evaluación;
 - una taxonomía de tipos de fallos.
 
+## Alcance actual de la evaluación
+
+La versión actual del proyecto incluye una evaluación inicial de 10 trayectorias generadas por un agente baseline basado en reglas.
+
+Cada trayectoria fue evaluada de forma cualitativa utilizando una plantilla de revisión manual y luego convertida en puntajes cuantitativos mediante una rúbrica de 0 a 4.
+
+La evaluación actual cubre seis dimensiones principales:
+
+1. Comprensión de la tarea
+2. Selección de documentos
+3. Recuperación de información
+4. Fidelidad a las fuentes
+5. Seguridad y límites
+6. Adecuación comunicativa
+
+Los resultados agregados se encuentran en `evaluations/results/` e incluyen tablas, resúmenes y gráficos generados con Python en inglés y español.
+
+El script utilizado para generar estos resultados es:
+
+```bash
+python scripts/create_evaluation_tables.py
+```
 ## Estado del proyecto
 
-Este proyecto se encuentra actualmente en su fase inicial de diseño.
+El proyecto se encuentra en desarrollo.
 
-El primer hito consiste en definir el alcance, las dimensiones de evaluación, la escala de puntuación y la taxonomía de fallos antes de construir el dataset y el prototipo del agente.
+La versión actual incluye:
+
+- dataset sintético de 10 tareas administrativas de salud en español;
+- base de conocimiento sintética en inglés y español;
+- agente baseline basado en reglas;
+- generación de trazas en JSON;
+- revisión cualitativa de trazas;
+- evaluación cuantitativa mediante rúbrica;
+- generación de tablas y gráficos con Python.
